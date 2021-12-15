@@ -1,0 +1,127 @@
+@import '../../variables';
+.icon {
+  color: '#323C47';
+  font-size: 26px;
+}
+.back-button {
+  margin-right: 9px;
+}
+.user-info-name {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #323c47;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.user-info-status {
+  color: #0000008a;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 14px;
+}
+.user-info-container {
+  display: flex;
+  position: relative;
+}
+.user-info-content {
+  margin-left: 10px;
+}
+.user-info-avatar {
+  height: 40px;
+  width: 40px;
+}
+.rotate {
+  transform: rotate(90deg);
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  width: 40px;
+  background-color: #c690d4;
+}
+.header-toolbar-area {
+  padding: 50px 20px 8px;
+  height: 80px;
+  display: flex;
+  --background: #f1f1f1;
+}
+.header-title {
+  font-size: 20px;
+  font-family: 'RobotoRegular';
+}
+.isOnline {
+  background: rgb(0, 219, 0);
+  z-index: 999;
+  position: absolute;
+  left: 28px;
+  top: -2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+}
+.header-selected-messages-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chat-options-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 105vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+  .chat-options-background-button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline-style: none;
+    background: transparent;
+  }
+}
+.chat-options-popup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px 0px;
+  top: 70px;
+  right: 40px;
+  border-radius: 10px;
+  background: whitesmoke;
+  width: fit-content;
+  min-width: 80px;
+  max-width: 150px;
+  min-height: 30px;
+  height: fit-content;
+}
+.chat-option {
+  padding: 8px 8px;
+  h5 {
+    padding: 0;
+    margin: 0;
+  }
+}
+.secret-chat-icon {
+  padding-left: 5px;
+  color: $messagenius-cyan-400-color;
+}
+
+@media (prefers-color-scheme: dark) {
+  .chatheader-toolbar-area {
+    color: $messagenius-gray-500-color !important;
+    --background: #212121 !important;
+  }
+  .chat-options-popup {
+    background: $messagenius-gray-900-color !important;
+  }
+  .user-info-name {
+    color: whitesmoke !important;
+  }
+}

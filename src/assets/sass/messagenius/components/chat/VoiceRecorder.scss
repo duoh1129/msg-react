@@ -1,0 +1,115 @@
+.voicerecorder-container-chat {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  bottom: 9px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  transition: all 0.25s ease-in-out;
+}
+.voicerecorder-container-chatlist {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  bottom: 9px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 20px;
+  transition: all 0.25s ease-in-out;
+}
+.voicerecorder-container-chat.isRecording {
+  width: 100vw;
+  height: 89px;
+  bottom: 0px;
+  background: linear-gradient(
+    25deg,
+    rgb(61, 48, 179) 0%,
+    rgba(34, 173, 191, 1) 100%
+  );
+}
+.voicerecorder-container-chatlist.isRecording {
+  width: 100vw;
+  height: 89px;
+  bottom: 0px;
+  overflow: visible;
+  background: linear-gradient(
+    25deg,
+    rgb(61, 48, 179) 0%,
+    rgba(34, 173, 191, 1) 100%
+  );
+}
+.voicerecorder-cancel-chat {
+  position: absolute;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  word-wrap: normal;
+  right: 70px;
+  top: 28px;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+.voicerecorder-cancel-chatlist {
+  position: absolute;
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  word-wrap: normal;
+  right: 70px;
+  top: 35px;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+.voicerecorder-mic-icon {
+  position: absolute;
+  top: 8px;
+  right: 12px !important;
+  --icon-font-size: 30px;
+  padding-left: 5px;
+  font-size: 37px !important;
+  color: rgba(34, 173, 191, 1);
+  transition: all 0.5s ease-in-out;
+}
+.voicerecorder-mic-icon.isRecording {
+  color: white;
+  font-size: 45px;
+  top: 28px;
+}
+.voicerecorder-mic-icon-chatlist {
+  position: absolute;
+  top: 12px;
+  right: 12px !important;
+  --icon-font-size: 30px;
+  padding-left: 5px;
+  font-size: 37px !important;
+  color: rgba(34, 173, 191, 1);
+  transition: all 0.5s ease-in-out;
+}
+.voicerecorder-mic-icon-chatlist.isRecording {
+  color: white;
+  font-size: 45px;
+  top: 34px;
+}
+.voicerecorder-counter-chat {
+  position: absolute;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  left: 20px;
+  top: 26px;
+  transition: all 0.5s ease-in-out;
+}
+.voicerecorder-counter-chatlist {
+  position: absolute;
+  font-weight: 400;
+  font-size: 30px;
+  color: white;
+  left: 45px;
+  top: 35px;
+  transition: all 0.5s ease-in-out;
+}

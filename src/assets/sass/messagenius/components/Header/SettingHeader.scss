@@ -1,0 +1,18 @@
+@import '../../variables';
+.setting-header-toolbar-area {
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  // --background: $messagenius-gray-100-color;
+  --background: #f1f1f1;
+}
+.setting-header-title {
+  font-size: 20px;
+  font-family: 'RobotoMedium';
+  text-align: center;
+}
+@media (prefers-color-scheme: dark) {
+  .setting-header-toolbar-area {
+    --background: $messagenius-gray-900-color !important;
+  }
+}

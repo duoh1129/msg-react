@@ -1,0 +1,40 @@
+@import '../../variables.scss';
+.messageinfo-user-card {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.messageinfo-user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $messagenius-white-color;
+  font-size: 16px;
+  font-family: 'RobotoRegular';
+  line-height: 21px;
+}
+.messageinfo-user-name-area {
+  display: block;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  .messageinfo-user-name {
+    width: 100%;
+    font-size: 16px;
+    font-family: 'RobotoRegular';
+    line-height: 24px;
+    color: $messagenius-black-color;
+  }
+  .messageinfo-user-subscript {
+    width: 100%;
+    font-size: 14px;
+    font-family: 'RobotoRegular';
+    line-height: 20px;
+    color: $messagenius-gray-600-color;
+  }
+}

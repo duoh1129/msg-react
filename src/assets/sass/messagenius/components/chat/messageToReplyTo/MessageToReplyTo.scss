@@ -1,0 +1,53 @@
+@import '../../../variables.scss';
+.message-to-reply-to-container {
+  display: flex;
+  padding: 10px 10px;
+  position: absolute;
+  width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  top: -80px;
+  left: 0;
+  height: 80px;
+  border: 1px solid $messagenius-cyan-400-color;
+  border-radius: 10px;
+  background: rgb(221, 221, 221);
+}
+.message-to-reply-to-icon {
+  font-size: 35px;
+  width: 50px;
+}
+.message-to-reply-to-reply-icon {
+  color: $messagenius-cyan-400-color;
+  width: 15px;
+  padding-right: 5px;
+}
+.message-to-reply-to-message {
+  padding: 5px 10px;
+  border-radius: 10px;
+  background: $messagenius-gray-500-color !important;
+  height: 60px;
+  width: calc(100vw - 80px);
+  color: white;
+}
+.message-to-reply-to-message-from {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.message-to-reply-to-message-content {
+  padding-top: 5px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+}
+.message-to-reply-to-attachment-icon {
+  padding-right: 5px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .message-to-reply-to-container {
+    background: $messagenius-gray-850-color !important;
+    color: white;
+  }
+}

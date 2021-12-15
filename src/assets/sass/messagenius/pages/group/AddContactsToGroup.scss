@@ -1,0 +1,17 @@
+@import '../../variables.scss';
+.already-member {
+  background-color: black !important;
+  z-index: 999;
+}
+@media (prefers-color-scheme: dark) {
+  .addcontacts-content-container {
+    --background: $messagenius-gray-900-color !important;
+  }
+  .addcontacts-group-container {
+    --background: $messagenius-gray-900-color !important;
+    border-bottom: 1px solid $messagenius-gray-850-color !important;
+  }
+  .addcontacts-group-list {
+    background: $messagenius-gray-900-color !important;
+  }
+}

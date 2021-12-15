@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Brandon Wells",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 1
+  },
+  {
+    "name": "Rebecca James",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 5
+  },
+  {
+    "name": "George Gray",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 3
+  },
+  {
+    "name": "Will Barnett",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 0
+  },
+  {
+    "name": "Amanda Marshall",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 4
+  },
+  {
+    "name": "Harry Boyd",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 6
+  },
+  {
+    "name": "Harry Boyd",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 2
+  },
+  {
+    "name": "Carolyn Roberts",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 3
+  },
+  {
+    "name": "Dorothy Sullivan",
+    "city": "City",
+    "department": "Department",
+    "role": "Role",
+    "favorite": true,
+    "recent": true,
+    "bg_color": 1
+  }
+]

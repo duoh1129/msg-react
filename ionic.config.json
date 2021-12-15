@@ -1,0 +1,7 @@
+{
+  "name": "MSG Ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

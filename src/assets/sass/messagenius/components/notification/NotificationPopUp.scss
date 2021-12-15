@@ -1,0 +1,91 @@
+@import '../../variables.scss';
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 150;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  width: 90vw;
+  height: 110px;
+  right: 5vw;
+  top: -100%;
+  transition: all 0.5s ease-in-out;
+}
+.notification-container.active {
+  position: fixed;
+  top: 4% !important;
+  background: rgb(255, 255, 255);
+  border: 2px solid $messagenius-cyan-400-color;
+}
+.notification-body {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  max-width: 100%;
+  padding: 5px;
+  max-height: 28px;
+  overflow: hidden;
+  word-wrap: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notification-title-container {
+  display: flex;
+  font-size: 18px;
+  vertical-align: text-bottom;
+}
+.notification-title {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  vertical-align: text-bottom;
+}
+.notification-buttons {
+  padding-top: 10px;
+  display: flex;
+  padding-left: 8%;
+}
+.notification-button {
+  font-size: 18px;
+  color: $messagenius-cyan-400-color; //this is the active color, now it's not yet active
+  // color: gray;
+  // text-decoration: line-through;
+}
+.notification-image {
+  display: flex;
+  align-items: center;
+}
+.notification-text.replying {
+  padding-top: 5px;
+}
+.notification-textinput {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  width: 100%;
+  position: relative;
+}
+.notification-input {
+  display: flex;
+  text-decoration: none;
+  outline-style: none;
+  border-radius: 20px;
+  border: 2px solid $messagenius-cyan-400-color;
+  height: 37px;
+  padding-left: 10px;
+  padding-right: 75px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+.notification-reply-buttons {
+  display: flex;
+  position: absolute;
+  right: 5px;
+  top: 19px;
+}

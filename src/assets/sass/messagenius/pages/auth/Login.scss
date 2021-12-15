@@ -1,0 +1,72 @@
+@import '../../variables';
+.login-body {
+  --background: #f1f1f1;
+}
+.login-information-icon {
+  position: absolute;
+  top: 58px;
+  right: 19px;
+  color: $messagenius-gray-500-color;
+  font-size: 24px;
+  cursor: pointer;
+}
+.login-logo-style {
+  width: 130px;
+  height: auto;
+  object-fit: cover;
+  margin-top: -30px;
+}
+.login-input-area {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  width: 310px;
+}
+.login-input-style {
+  height: 50px;
+  border-radius: 25px;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: 'RobotoBold';
+}
+.login-input-icon {
+  margin-left: 20px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.login-button {
+  width: 270px;
+  height: 50px;
+  --border-radius: 25px;
+  --background: #323c47;
+  color: $messagenius-white-color;
+  font-size: 14px;
+  font-family: RobotoBold;
+}
+.login-text-style {
+  font-size: 15px;
+  font-family: RobotoRegular;
+  color: $messagenius-gray-850-color;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.login-terms-area {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  margin-top: 136px;
+  margin-bottom: 48px;
+}
+.login-terms-logo-style {
+  width: 45px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .login-input-style {
+    color: black;
+  }
+}

@@ -1,0 +1,20 @@
+@import '../../variables.scss';
+.already-member {
+  background-color: black !important;
+  z-index: 999;
+}
+@media (prefers-color-scheme: dark) {
+  .contacts-header-toolbar-area {
+    background: $messagenius-gray-900-color !important;
+  }
+  .forwardmessages-content-container {
+    --background: $messagenius-gray-900-color !important;
+  }
+  .forwardmessages-container {
+    --background: $messagenius-gray-900-color !important;
+    border-bottom: 1px solid $messagenius-gray-850-color !important;
+  }
+  .forwardmessages-list {
+    background: $messagenius-gray-900-color !important;
+  }
+}

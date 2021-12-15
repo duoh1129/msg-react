@@ -1,0 +1,39 @@
+@import '../../variables';
+.setting-user-card-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: white;
+  }
+  .avatar-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    .avatar-style {
+      width: 80px;
+      height: 80px;
+      border-radius: 40px;
+      margin-left: 6px;
+      margin-right: 19px;
+      font-size: 35px;
+    }
+    .name-area {
+      display: block;
+      .fullname-style {
+        font-size: 24px;
+        font-family: 'RobotoRegular';
+        line-height: 32px;
+      }
+      .name-style {
+        font-size: 16px;
+        font-family: 'RobotoRegular';
+        line-height: 21px;
+      }
+    }
+  }
+}

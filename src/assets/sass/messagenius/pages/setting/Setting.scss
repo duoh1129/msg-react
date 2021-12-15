@@ -1,0 +1,51 @@
+@import '../../variables';
+.setting-container {
+  --background: #f1f1f1;
+  width: 100%;
+  padding: 16px;
+  .divider {
+    width: 100%;
+    height: 1px;
+    border-bottom: #d8d9dd 1px solid;
+  }
+  .card-style {
+    padding: 7px 16px;
+    border-bottom: #d8d9dd 1px solid;
+    min-height: 31px;
+    &:hover {
+      background-color: white;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .card-content-style {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .icon-style {
+        margin-right: 16px;
+      }
+      .card-text-style {
+        font-size: 17px;
+        font-family: 'RobotoRegular';
+        line-height: 20px;
+        color: $messagenius-black-color;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .setting-container {
+    --background: $messagenius-gray-850-color !important;
+  }
+  .card-text-style {
+    color: whitesmoke !important;
+  }
+  .divider {
+    border-bottom: $messagenius-gray-900-color 1px solid !important;
+  }
+  .card-style {
+    border-bottom: $messagenius-gray-900-color 1px solid !important;
+  }
+}

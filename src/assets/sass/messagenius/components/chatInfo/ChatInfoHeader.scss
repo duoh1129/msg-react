@@ -1,0 +1,66 @@
+@import '../../variables.scss';
+.chat-settings-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #0000001c;
+  z-index: 998;
+  cursor: default;
+}
+.chat-settings-container button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline-style: none;
+  background: transparent;
+}
+
+.chat-settings-popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 100px;
+  width: fit-content;
+  background: #ffffff;
+  min-height: 50px;
+  height: fit-content;
+  right: 5%;
+  top: 80%;
+  margin: 0% 0% 2% 3%;
+  padding: 4%;
+  border-radius: 10px;
+  z-index: 998;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}
+
+.chat-settings-popup button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline-style: none;
+  padding: 0;
+  margin-top: 15px;
+  background: transparent;
+  width: 100%;
+  height: 30px;
+  z-index: 999;
+  ::hover {
+    background: red;
+  }
+}
+
+.chat-settings-popup h5 {
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .icon {
+    color: $messagenius-gray-500-color !important;
+  }
+  .chat-settings-popup {
+    background: $messagenius-gray-900-color !important;
+  }
+}

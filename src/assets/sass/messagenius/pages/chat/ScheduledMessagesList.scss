@@ -1,0 +1,50 @@
+@import '../../variables.scss';
+.scheduled-messages-page {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0px;
+    right: 0px;
+    background-color: whitesmoke;
+}
+.scheduled-messages-toolbar {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 80px;
+    width: 100%;
+    --background: $messagenius-gray-600-color;
+}
+.icon.scheduled-messages-back-icon {
+    padding-left: 15px;
+}
+.scheduled-messages-loading-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    align-items: center;
+    top: 0px;
+    right: 0px;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(215, 215, 215);
+}
+.no-scheduled-messages-message {
+    color: gray;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: dark){
+    .scheduled-messages-toolbar {
+        background-color: $messagenius-gray-900-color !important;
+        border-bottom: 1px solid rgb(52, 52, 52);
+    }
+    .scheduled-messages-container {
+        background-color: $messagenius-gray-900-color !important;
+    }
+}

@@ -1,0 +1,21 @@
+@import '../../variables';
+.footer-tabs-area {
+  height: 86px;
+  display: flex;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  // --background: $messagenius-gray-100-color;
+  --background: #f1f1f1;
+}
+.footer-icon-style {
+  width: 32px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer-tabs-area {
+    --background: $messagenius-gray-900-color;
+  }
+}

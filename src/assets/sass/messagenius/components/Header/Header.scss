@@ -1,0 +1,22 @@
+@import '../../variables';
+.header-toolbar-area {
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  --background: #f1f1f1;
+}
+.header-title {
+  font-size: 20px;
+  font-family: 'RobotoRegular';
+}
+.header-icon {
+  color: $messagenius-gray-850-color;
+}
+@media (prefers-color-scheme: dark) {
+  .header-toolbar-area {
+    --background: $messagenius-gray-900-color !important;
+  }
+  .header-icon {
+    color: white;
+  }
+}

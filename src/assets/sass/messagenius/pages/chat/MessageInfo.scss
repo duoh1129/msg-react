@@ -1,0 +1,117 @@
+@import '../../variables.scss';
+.messageinfo-container {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  background-color: white;
+  z-index: 101;
+  flex-direction: column;
+}
+.messageinfo-header-toolbar-area {
+  padding: 50px 20px 0px;
+  height: 80px;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+.messageinfo-message-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid lightgray;
+}
+.messageinfo-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+}
+.messageinfo-users-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.messageinfo-singlechat-read {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+.messageinfo-singlechat-received {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.messageinfo-groupchat-read {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+.messageinfo-groupchat-read-users {
+  display: flex;
+  flex-direction: column;
+}
+.messageinfo-groupchat-received {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  h4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+.messageinfo-groupchat-received-users {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (prefers-color-scheme: dark) {
+  .messageinfo-header-toolbar-area {
+    border-bottom: 0px;
+  }
+  .messageinfo-message-container {
+    background-color: $messagenius-gray-900-color !important;
+    border-bottom: 0px;
+  }
+}

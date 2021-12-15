@@ -1,0 +1,21 @@
+.contactsgroupavatar {
+  display: flex;
+  width: 70px;
+  padding-right: 15px;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactsgroup-avatar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.contactsgroup-name {
+  display: flex;
+  width: 90%;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

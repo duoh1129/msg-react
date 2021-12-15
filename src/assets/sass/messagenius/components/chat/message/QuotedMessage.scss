@@ -1,0 +1,62 @@
+@import '../../../variables.scss';
+.quoted-message-container {
+  max-height: 70px;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-left: -5px;
+  margin-bottom: 5px;
+  background: $messagenius-gray-400-color;
+}
+.quoted-message-text-type,
+.voice-message-audio-type {
+  display: flex;
+  flex-direction: column;
+}
+.quoted-message-text {
+  display: block;
+  max-height: 40px;
+  max-width: 100% !important;
+  overflow-y: hidden;
+}
+.quoted-message-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+}
+.quoted-message-img-type {
+  display: flex;
+  flex-direction: row;
+}
+.quoted-message-content,
+.quoted-message-img-content,
+.quoted-message-from {
+  color: white;
+}
+.quoted-message-quote-icon {
+  width: 15px;
+  padding-left: 5px;
+  color: $messagenius-cyan-400-color;
+}
+.quoted-message-from {
+  font-weight: 600;
+}
+.quoted-message-img-content {
+  display: flex;
+  flex-direction: column;
+}
+.quoted-message-attachment-icon {
+  padding-right: 3px;
+}
+.quoted-message-attachment-img {
+  width: 50px !important;
+  min-height: 25px !important;
+  height: 50px !important;
+  border-radius: 5px !important;
+  margin-right: 8px;
+  margin-left: -3px;
+}
+.quoted-message-img-text {
+  padding-left: 5px;
+}

@@ -1,0 +1,35 @@
+.file-message {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.chat-document-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 50px;
+  color: black;
+  padding-right: 10px;
+}
+.chat-document-icon {
+  position: relative;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  justify-content: center;
+}
+.chat-document-extension {
+  position: absolute;
+  font-size: 13px;
+  bottom: -2px;
+}
+.file-message-info-download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.file-message-download-icon {
+  font-size: 35px;
+}
